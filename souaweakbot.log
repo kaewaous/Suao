@@ -1,1 +1,187 @@
 2025-08-28 22:20:14,208 - INFO - 🚀 SouaweakBot ultra-épico corriendo y listo...
+2025-08-29 01:34:01,240 - telegram.ext.Application - INFO - Application started
+2025-08-29 01:34:56,245 - __main__ - ERROR - Error causado por update Update(callback_query=CallbackQuery(chat_instance='-3459158137496285856', data='historial', from_user=User(first_name='Alexander', id=6088944764, is_bot=False, language_code='es', username='Kaewaous'), id='7705074555552513715', message=Message(channel_chat_created=False, chat=Chat(first_name='Alexander', id=6088944764, type=<ChatType.PRIVATE>, username='Kaewaous'), date=datetime.datetime(2025, 8, 29, 6, 34, 53, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=35, offset=37, type=<MessageEntityType.BOLD>), MessageEntity(length=5, offset=448, type=<MessageEntityType.BOT_COMMAND>)), from_user=User(first_name='Souaweak', id=7794549417, is_bot=True, username='SouaweakBot'), group_chat_created=False, message_id=306, reply_markup=InlineKeyboardMarkup(inline_keyboard=((InlineKeyboardButton(callback_data='kotatsu', text='📚 Manga/Manhwa'), InlineKeyboardButton(callback_data='downloader', text='🎬 Descargar Video')), (InlineKeyboardButton(callback_data='audio', text='🎵 Audio'), InlineKeyboardButton(callback_data='historial', text='📜 Historial')), (InlineKeyboardButton(callback_data='game', text='🎮 Juego'), InlineKeyboardButton(callback_data='qr', text='🔍 Analizar QR')))), supergroup_chat_created=False, text='🚀 Bienvenido a SouaweakBot v2.0\n\n🤖 El bot más poderoso que jamás verás\n👨\u200d💻 Creado por Kaewaous\n\n¿Qué puedo hacer?\n• 📚 Descargar mangas/manhwas\n• 🎬 Descargar videos de cualquier plataforma\n• 🎵 Extraer audio de videos\n• 🔍 Analizar códigos QR y texto en imágenes\n• 👁️ Detectar objetos en imágenes\n• 📊 Extraer metadatos EXIF/GPS\n• 🎮 Mini-juegos interactivos\n\nSimplemente envía:\n• URL para descargar\n• Imagen para análisis completo\n• Comando /help para más opciones')), update_id=394928943): Can't parse entities: can't find end of the entity starting at byte offset 332
+2025-08-29 01:37:19,713 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2pV2j5/
+2025-08-29 01:37:21,663 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 01:37:21,664 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.1%[0m a [0;32m   1.57MiB/s[0m
+2025-08-29 01:37:21,665 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.3%[0m a [0;32m   2.22MiB/s[0m
+2025-08-29 01:37:21,666 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.7%[0m a [0;32m   3.65MiB/s[0m
+2025-08-29 01:37:21,667 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  1.4%[0m a [0;32m   6.15MiB/s[0m
+2025-08-29 01:37:21,694 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  2.9%[0m a [0;32m   1.90MiB/s[0m
+2025-08-29 01:37:21,725 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  5.7%[0m a [0;32m   1.97MiB/s[0m
+2025-08-29 01:37:21,755 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 11.5%[0m a [0;32m   2.67MiB/s[0m
+2025-08-29 01:37:21,783 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 23.1%[0m a [0;32m   4.11MiB/s[0m
+2025-08-29 01:37:21,828 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 46.3%[0m a [0;32m   6.01MiB/s[0m
+2025-08-29 01:37:21,930 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 92.7%[0m a [0;32m   7.45MiB/s[0m
+2025-08-29 01:37:21,954 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m100.0%[0m a [0;32m   7.38MiB/s[0m
+2025-08-29 01:37:21,956 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/How it feels to finally own a #REDMAGIC 🍷🗿.mp4
+2025-08-29 01:39:05,833 - telegram.ext.Application - INFO - Application started
+2025-08-29 01:39:14,796 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2pV2j5/
+2025-08-29 01:39:16,726 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 01:39:16,727 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.1%[0m a [0;32m   2.67MiB/s[0m
+2025-08-29 01:39:16,728 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.3%[0m a [0;32m   4.25MiB/s[0m
+2025-08-29 01:39:16,728 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.7%[0m a [0;32m   6.64MiB/s[0m
+2025-08-29 01:39:16,730 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  1.4%[0m a [0;32m   7.06MiB/s[0m
+2025-08-29 01:39:16,754 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  2.9%[0m a [0;32m   2.19MiB/s[0m
+2025-08-29 01:39:16,785 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  5.7%[0m a [0;32m   2.09MiB/s[0m
+2025-08-29 01:39:16,814 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 11.5%[0m a [0;32m   2.82MiB/s[0m
+2025-08-29 01:39:16,841 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 23.1%[0m a [0;32m   4.32MiB/s[0m
+2025-08-29 01:39:16,885 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 46.3%[0m a [0;32m   6.26MiB/s[0m
+2025-08-29 01:39:16,976 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 92.7%[0m a [0;32m   7.99MiB/s[0m
+2025-08-29 01:39:17,019 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m100.0%[0m a [0;32m   7.37MiB/s[0m
+2025-08-29 01:39:17,030 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/How it feels to finally own a #REDMAGIC 🍷🗿.mp4
+2025-08-29 01:39:51,219 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2GPbvx/
+2025-08-29 01:39:58,683 - modulos.downloader - INFO - [downloader] TikTok video #7543742889231158584.mp4: [0;94m  0.1%[0m a [0;32m 359.10KiB/s[0m
+2025-08-29 01:39:58,684 - modulos.downloader - INFO - [downloader] TikTok video #7543742889231158584.mp4: [0;94m  0.2%[0m a [0;32m 853.60KiB/s[0m
+2025-08-29 01:39:58,684 - modulos.downloader - INFO - [downloader] TikTok video #7543742889231158584.mp4: [0;94m  0.4%[0m a [0;32m   1.71MiB/s[0m
+2025-08-29 01:39:58,685 - modulos.downloader - INFO - [downloader] TikTok video #7543742889231158584.mp4: [0;94m  0.8%[0m a [0;32m   3.34MiB/s[0m
+2025-08-29 01:39:58,691 - modulos.downloader - INFO - [downloader] TikTok video #7543742889231158584.mp4: [0;94m  1.7%[0m a [0;32m   2.97MiB/s[0m
+2025-08-29 01:39:58,719 - modulos.downloader - INFO - [downloader] TikTok video #7543742889231158584.mp4: [0;94m  3.4%[0m a [0;32m   1.59MiB/s[0m
+2025-08-29 01:39:58,753 - modulos.downloader - INFO - [downloader] TikTok video #7543742889231158584.mp4: [0;94m  6.8%[0m a [0;32m   1.70MiB/s[0m
+2025-08-29 01:39:58,776 - modulos.downloader - INFO - [downloader] TikTok video #7543742889231158584.mp4: [0;94m 13.7%[0m a [0;32m   2.59MiB/s[0m
+2025-08-29 01:39:58,836 - modulos.downloader - INFO - [downloader] TikTok video #7543742889231158584.mp4: [0;94m 27.4%[0m a [0;32m   3.21MiB/s[0m
+2025-08-29 01:39:58,903 - modulos.downloader - INFO - [downloader] TikTok video #7543742889231158584.mp4: [0;94m 54.8%[0m a [0;32m   4.49MiB/s[0m
+2025-08-29 01:39:59,000 - modulos.downloader - INFO - [downloader] TikTok video #7543742889231158584.mp4: [0;94m100.0%[0m a [0;32m   5.69MiB/s[0m
+2025-08-29 01:39:59,001 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/TikTok video #7543742889231158584.mp4
+2025-08-29 01:44:02,483 - telegram.ext.Application - INFO - Application started
+2025-08-29 01:44:17,085 - telegram.ext.Application - INFO - Application started
+2025-08-29 01:44:27,247 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2pV2j5/
+2025-08-29 01:44:29,249 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 01:44:29,250 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.1%[0m a [0;32m Unknown B/s[0m
+2025-08-29 01:44:29,250 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.3%[0m a [0;32m   4.89MiB/s[0m
+2025-08-29 01:44:29,251 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.7%[0m a [0;32m   7.52MiB/s[0m
+2025-08-29 01:44:29,253 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  1.4%[0m a [0;32m   8.45MiB/s[0m
+2025-08-29 01:44:29,280 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  2.9%[0m a [0;32m   2.00MiB/s[0m
+2025-08-29 01:44:29,308 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  5.7%[0m a [0;32m   2.08MiB/s[0m
+2025-08-29 01:44:29,338 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 11.5%[0m a [0;32m   2.78MiB/s[0m
+2025-08-29 01:44:29,366 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 23.1%[0m a [0;32m   4.25MiB/s[0m
+2025-08-29 01:44:29,411 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 46.3%[0m a [0;32m   6.15MiB/s[0m
+2025-08-29 01:44:29,511 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 92.7%[0m a [0;32m   7.63MiB/s[0m
+2025-08-29 01:44:29,536 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m100.0%[0m a [0;32m   7.52MiB/s[0m
+2025-08-29 01:44:29,540 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/How it feels to finally own a #REDMAGIC 🍷🗿.mp4
+2025-08-29 01:48:22,160 - telegram.ext.Application - INFO - Application started
+2025-08-29 01:48:29,396 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2pV2j5/
+2025-08-29 01:48:32,109 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 01:48:32,110 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.1%[0m a [0;32m Unknown B/s[0m
+2025-08-29 01:48:32,110 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.3%[0m a [0;32m   5.73MiB/s[0m
+2025-08-29 01:48:32,111 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.7%[0m a [0;32m   7.62MiB/s[0m
+2025-08-29 01:48:32,113 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  1.4%[0m a [0;32m   7.34MiB/s[0m
+2025-08-29 01:48:32,140 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  2.9%[0m a [0;32m   1.98MiB/s[0m
+2025-08-29 01:48:32,171 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  5.7%[0m a [0;32m   2.01MiB/s[0m
+2025-08-29 01:48:32,201 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 11.5%[0m a [0;32m   2.71MiB/s[0m
+2025-08-29 01:48:32,229 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 23.1%[0m a [0;32m   4.17MiB/s[0m
+2025-08-29 01:48:32,275 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 46.3%[0m a [0;32m   6.04MiB/s[0m
+2025-08-29 01:48:32,376 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 92.7%[0m a [0;32m   7.51MiB/s[0m
+2025-08-29 01:48:32,400 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m100.0%[0m a [0;32m   7.42MiB/s[0m
+2025-08-29 01:48:32,400 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/How it feels to finally own a #REDMAGIC 🍷🗿.mp4
+2025-08-29 01:50:46,202 - telegram.ext.Application - INFO - Application started
+2025-08-29 01:51:00,935 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2pV2j5/
+2025-08-29 01:51:02,479 - modulos.downloader - ERROR - [downloader] Error de descarga: [0;31mERROR:[0m [TikTok] 7533506338454883639: Unable to extract webpage video data; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+2025-08-29 01:52:56,331 - telegram.ext.Application - INFO - Application started
+2025-08-29 01:53:03,997 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2pV2j5/
+2025-08-29 01:53:06,796 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 01:53:06,796 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.1%[0m a [0;32m   2.03MiB/s[0m
+2025-08-29 01:53:06,797 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.3%[0m a [0;32m   3.35MiB/s[0m
+2025-08-29 01:53:06,798 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  0.7%[0m a [0;32m   5.29MiB/s[0m
+2025-08-29 01:53:06,800 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  1.4%[0m a [0;32m   5.69MiB/s[0m
+2025-08-29 01:53:06,828 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  2.9%[0m a [0;32m   1.87MiB/s[0m
+2025-08-29 01:53:06,859 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m  5.7%[0m a [0;32m   1.94MiB/s[0m
+2025-08-29 01:53:06,890 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 11.5%[0m a [0;32m   2.61MiB/s[0m
+2025-08-29 01:53:06,920 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 23.1%[0m a [0;32m   4.00MiB/s[0m
+2025-08-29 01:53:06,965 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 46.3%[0m a [0;32m   5.88MiB/s[0m
+2025-08-29 01:53:07,087 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m 92.7%[0m a [0;32m   6.84MiB/s[0m
+2025-08-29 01:53:07,088 - modulos.downloader - INFO - [downloader] How it feels to finally own a #REDMAGIC 🍷🗿.mp4: [0;94m100.0%[0m a [0;32m   7.36MiB/s[0m
+2025-08-29 01:53:07,089 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/How it feels to finally own a #REDMAGIC 🍷🗿.mp4
+2025-08-29 01:53:43,349 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2GDNPJ/
+2025-08-29 01:53:45,109 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 01:53:45,110 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 01:53:45,110 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   4.39MiB/s[0m
+2025-08-29 01:53:45,111 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   6.31MiB/s[0m
+2025-08-29 01:53:45,113 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.3%[0m a [0;32m   7.53MiB/s[0m
+2025-08-29 01:53:45,139 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.6%[0m a [0;32m   2.08MiB/s[0m
+2025-08-29 01:53:45,169 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  1.2%[0m a [0;32m   2.06MiB/s[0m
+2025-08-29 01:53:45,199 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  2.5%[0m a [0;32m   2.75MiB/s[0m
+2025-08-29 01:53:45,229 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  5.0%[0m a [0;32m   4.14MiB/s[0m
+2025-08-29 01:53:45,274 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 10.0%[0m a [0;32m   6.05MiB/s[0m
+2025-08-29 01:53:45,370 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 20.0%[0m a [0;32m   7.66MiB/s[0m
+2025-08-29 01:53:45,544 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 40.1%[0m a [0;32m   9.19MiB/s[0m
+2025-08-29 01:53:45,927 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 80.2%[0m a [0;32m   9.79MiB/s[0m
+2025-08-29 01:53:46,109 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m100.0%[0m a [0;32m   9.98MiB/s[0m
+2025-08-29 01:53:46,166 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4
+2025-08-29 02:01:45,311 - telegram.ext.Application - INFO - Application started
+2025-08-29 02:02:30,510 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2GGWF9/
+2025-08-29 02:02:33,470 - modulos.downloader - ERROR - [downloader] Error de descarga: [0;31mERROR:[0m Unsupported URL: https://www.tiktok.com/@kaili6279/photo/7543154726347607304?_t=ZM-8zH8YdCbWxs&_r=1
+2025-08-29 02:21:28,562 - telegram.ext.Application - INFO - Application started
+2025-08-29 02:21:44,327 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2GDNPJ/
+2025-08-29 02:21:51,540 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m 517.88KiB/s[0m
+2025-08-29 02:21:51,541 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m   1.17MiB/s[0m
+2025-08-29 02:21:51,541 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   2.33MiB/s[0m
+2025-08-29 02:21:51,542 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   4.23MiB/s[0m
+2025-08-29 02:21:51,542 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.3%[0m a [0;32m   7.72MiB/s[0m
+2025-08-29 02:21:51,568 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.6%[0m a [0;32m   2.10MiB/s[0m
+2025-08-29 02:21:51,598 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  1.2%[0m a [0;32m   2.11MiB/s[0m
+2025-08-29 02:21:51,630 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  2.5%[0m a [0;32m   2.73MiB/s[0m
+2025-08-29 02:21:51,660 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  5.0%[0m a [0;32m   4.12MiB/s[0m
+2025-08-29 02:21:51,704 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 10.0%[0m a [0;32m   6.02MiB/s[0m
+2025-08-29 02:21:51,796 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 20.0%[0m a [0;32m   7.75MiB/s[0m
+2025-08-29 02:21:51,975 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 40.1%[0m a [0;32m   9.17MiB/s[0m
+2025-08-29 02:21:52,378 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 80.2%[0m a [0;32m   9.53MiB/s[0m
+2025-08-29 02:21:52,554 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m100.0%[0m a [0;32m   9.82MiB/s[0m
+2025-08-29 02:21:52,620 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4
+2025-08-29 02:24:48,285 - telegram.ext.Application - INFO - Application started
+2025-08-29 02:24:50,451 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2GDNPJ/
+2025-08-29 02:24:52,649 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m 877.65KiB/s[0m
+2025-08-29 02:24:52,650 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m   1.44MiB/s[0m
+2025-08-29 02:24:52,651 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   2.55MiB/s[0m
+2025-08-29 02:24:52,651 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   4.22MiB/s[0m
+2025-08-29 02:24:52,652 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.3%[0m a [0;32m   7.54MiB/s[0m
+2025-08-29 02:24:52,677 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.6%[0m a [0;32m   2.09MiB/s[0m
+2025-08-29 02:24:52,708 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  1.2%[0m a [0;32m   2.07MiB/s[0m
+2025-08-29 02:24:52,737 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  2.5%[0m a [0;32m   2.79MiB/s[0m
+2025-08-29 02:24:52,766 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  5.0%[0m a [0;32m   4.23MiB/s[0m
+2025-08-29 02:24:52,810 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 10.0%[0m a [0;32m   6.14MiB/s[0m
+2025-08-29 02:24:52,908 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 20.0%[0m a [0;32m   7.68MiB/s[0m
+2025-08-29 02:24:53,081 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 40.1%[0m a [0;32m   9.23MiB/s[0m
+2025-08-29 02:24:53,509 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 80.2%[0m a [0;32m   9.28MiB/s[0m
+2025-08-29 02:24:53,666 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m100.0%[0m a [0;32m   9.80MiB/s[0m
+2025-08-29 02:24:53,684 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4
+2025-08-29 02:31:36,446 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-08-29 02:31:36,456 - telegram.ext.Application - INFO - Application.stop() complete
+2025-08-29 02:31:55,451 - telegram.ext.Application - INFO - Application started
+2025-08-29 02:32:05,295 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2GDNPJ/
+2025-08-29 02:32:07,435 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m 119.22KiB/s[0m
+2025-08-29 02:32:07,435 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m 338.07KiB/s[0m
+2025-08-29 02:32:07,436 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m 764.61KiB/s[0m
+2025-08-29 02:32:07,436 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   1.53MiB/s[0m
+2025-08-29 02:32:07,445 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.3%[0m a [0;32m   1.66MiB/s[0m
+2025-08-29 02:32:07,521 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.6%[0m a [0;32m 668.98KiB/s[0m
+2025-08-29 02:32:07,606 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  1.2%[0m a [0;32m 709.51KiB/s[0m
+2025-08-29 02:32:07,691 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  2.5%[0m a [0;32m 963.34KiB/s[0m
+2025-08-29 02:32:07,767 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  5.0%[0m a [0;32m   1.47MiB/s[0m
+2025-08-29 02:32:07,847 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 10.0%[0m a [0;32m   2.38MiB/s[0m
+2025-08-29 02:32:07,940 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 20.0%[0m a [0;32m   3.89MiB/s[0m
+2025-08-29 02:32:08,174 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 40.1%[0m a [0;32m   5.35MiB/s[0m
+2025-08-29 02:32:08,672 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 80.2%[0m a [0;32m   6.42MiB/s[0m
+2025-08-29 02:32:08,846 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m100.0%[0m a [0;32m   7.03MiB/s[0m
+2025-08-29 02:32:08,911 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4
+2025-08-29 02:33:17,457 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2tBFjQ/
+2025-08-29 02:33:19,229 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 02:33:19,230 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  0.1%[0m a [0;32m   1.20MiB/s[0m
+2025-08-29 02:33:19,230 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  0.3%[0m a [0;32m   2.29MiB/s[0m
+2025-08-29 02:33:19,231 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  0.6%[0m a [0;32m   4.19MiB/s[0m
+2025-08-29 02:33:19,231 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  1.2%[0m a [0;32m   7.59MiB/s[0m
+2025-08-29 02:33:19,258 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  2.5%[0m a [0;32m   2.04MiB/s[0m
+2025-08-29 02:33:19,289 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  5.0%[0m a [0;32m   2.01MiB/s[0m
+2025-08-29 02:33:19,319 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m 10.0%[0m a [0;32m   2.71MiB/s[0m
+2025-08-29 02:33:19,350 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m 20.0%[0m a [0;32m   4.07MiB/s[0m
+2025-08-29 02:33:19,395 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m 40.1%[0m a [0;32m   5.98MiB/s[0m
+2025-08-29 02:33:19,526 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m 80.2%[0m a [0;32m   6.69MiB/s[0m
+2025-08-29 02:33:19,607 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m100.0%[0m a [0;32m   6.57MiB/s[0m
+2025-08-29 02:33:19,613 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/#ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4
+2025-08-29 02:37:15,540 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-08-29 02:37:15,542 - telegram.ext.Application - INFO - Application.stop() complete
+2025-08-29 02:39:03,473 - telegram.ext.Application - INFO - Application started
+2025-08-29 02:39:10,681 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2tBFjQ/
+2025-08-29 02:39:12,796 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/#ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4
+2025-08-29 02:39:46,844 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-08-29 02:39:46,845 - telegram.ext.Application - INFO - Application.stop() complete

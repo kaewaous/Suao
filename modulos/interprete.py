@@ -306,38 +306,65 @@ async def enviar_resultados_optimizados(mensaje, resultados: list, ruta_imagen: 
         os.remove(archivo_resultados)
 
 async def procesar_descarga_url(url: str, usuario_id: int, mensaje):
-    """Procesamiento de descargas en segundo plano"""
+    """Procesamiento de descargas en segundo plano: envío seguro en MP4"""
     try:
         resultado = downloader.descargar(url, usuario_id)
-        if resultado.get('status') == 'success':
-            file_path = resultado.get('file_path')
-            file_type = resultado.get('file_type')
-            if file_type == "videos":
-                abs_path = os.path.abspath(file_path)
-                nombre_archivo = os.path.basename(abs_path)
-                ruta_convertida = os.path.join("downloads/videos", f"tg_{nombre_archivo}")
-                try:
-                    convertir_video_compatible(abs_path, ruta_convertida)
-                except Exception as conv_err:
-                    await mensaje.reply_text(f"❌ Error al convertir el video: {str(conv_err)}")
-                    return
-                if os.path.exists(ruta_convertida):
-                    try:
-                        await mensaje.reply_video(
-                            video=InputFile(ruta_convertida),
-                            caption="🎬 Descarga convertida y lista para Telegram"
-                        )
-                    except Exception as send_err:
-                        await mensaje.reply_text(f"❌ Error al enviar el video: {str(send_err)}")
-                    finally:
-                        os.remove(ruta_convertida)
-                else:
-                    await mensaje.reply_text(f"❌ El archivo convertido no se encontró: {ruta_convertida}")
-            # ...audio y fotos igual...
-        else:
+        if resultado.get('status') != 'success':
             await mensaje.reply_text(f"❌ Error: {resultado.get('message', 'Error desconocido')}")
+            return
+
+        file_path = resultado.get('file_path')
+        file_type = resultado.get('file_type')
+
+        if file_type != "videos":
+            await mensaje.reply_text(f"⚠️ Archivo descargado no es un video: {file_type}")
+            return
+
+        abs_path = os.path.abspath(file_path)
+        nombre_archivo = os.path.basename(abs_path)
+        ruta_convertida = os.path.join("downloads/videos", f"tg_{nombre_archivo}.mp4")
+
+        # Convertir a MP4 compatible
+        try:
+            convertir_video_compatible(abs_path, ruta_convertida)
+        except Exception as conv_err:
+            await mensaje.reply_text(f"❌ Error al convertir el video: {str(conv_err)}")
+            return
+
+        if not os.path.exists(ruta_convertida):
+            await mensaje.reply_text(f"❌ No se encontró el archivo convertido: {ruta_convertida}")
+            return
+
+        # Enviar video
+        try:
+            await mensaje.reply_video(
+                video=InputFile(ruta_convertida),
+                caption="🎬 Video convertido y listo para Telegram"
+            )
+        except Exception as send_err:
+            await mensaje.reply_text(f"❌ Error al enviar el video: {send_err}")
+        finally:
+            # Limpiar archivo temporal
+            if os.path.exists(ruta_convertida):
+                os.remove(ruta_convertida)
+
     except Exception as e:
         await mensaje.reply_text(f"💥 Error crítico en descarga: {str(e)}")
+
+def convertir_video_compatible(ruta_entrada, ruta_salida):
+    """Convierte cualquier video a MP4 H.264 + AAC compatible Telegram"""
+    # Envolver rutas entre comillas para manejar espacios y caracteres raros
+    comando = [
+        "ffmpeg",
+        "-y",
+        "-i", ruta_entrada,  # FFmpeg puede manejar strings normales si lo pasas como lista
+        "-c:v", "libx264",
+        "-c:a", "aac",
+        "-movflags", "+faststart",
+        ruta_salida
+    ]
+    subprocess.run(comando, check=True)
+
 
 # FUNCIONES DE UTILIDAD ULTRA-RÁPIDAS
 def detectar_tipo_contenido(mensaje) -> str:
