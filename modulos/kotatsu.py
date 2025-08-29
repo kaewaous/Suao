@@ -7,7 +7,7 @@ Integración con storage_manager y historial.
 import os
 from datetime import datetime
 from modulos import historial, storage_manager
-
+from modulos import chunked_downloader 
 DOWNLOAD_PATH = "downloads/mangas/"
 
 # Crear carpeta si no existe

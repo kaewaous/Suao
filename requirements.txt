@@ -11,3 +11,8 @@ diskcache
 aiohttp
 python-dotenv
 aiofiles
+ffmpeg
+brotli
+pycryptodome
+mutagen
+websockets

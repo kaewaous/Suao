@@ -8,18 +8,12 @@ import os
 import re
 import asyncio
 import aiofiles
-import aiohttp
 import cv2
-import numpy as np
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
-from pyzbar.pyzbar import decode
 from telegram import Update, InputFile
 from telegram.ext import ContextTypes
 from modulos import (
-    downloader, sex, image_meme, image_metadata, 
-    image_objects, image_safety, image_text,
-    storage_manager, historial, resource_manager
-)
+    downloader, sex,storage_manager, historial, resource_manager)
 import time
 from functools import lru_cache
 import hashlib
@@ -164,8 +158,8 @@ async def ejecutar_analisis_paralelo(ruta_imagen: str, usuario_id: int, image_ha
     """Ejecuta TODOS los análisis en paralelo como un supercomputador"""
     modulos_analisis = [
         ("QR", analizar_qr),
-        ("Texto", analizar_texto),
-        ("Objetos", analizar_objetos),
+       # ("Texto", analizar_texto),
+        #("Objetos", analizar_objetos),
         ("Metadata", analizar_metadata),
         ("Seguridad", analizar_seguridad),
         ("Memes", analizar_memes),
@@ -217,33 +211,6 @@ def analizar_qr(ruta_imagen: str, usuario_id: int, image_hash: str) -> str:
     cache_analisis_imagen.cache_clear()  # Mantener cache fresco
     return str(resultado)[:200]  # Limitar tamaño
 
-def analizar_texto(ruta_imagen: str, usuario_id: int, image_hash: str) -> str:
-    """OCR ultra-rápido con preprocesamiento"""
-    cached = cache_analisis_imagen(image_hash, "texto")
-    if cached: return cached
-    
-    # Preprocesamiento de imagen para mejor OCR
-    img = cv2.imread(ruta_imagen)
-    if img is not None:
-        # Mejorar contraste para OCR
-        img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        img = cv2.equalizeHist(img)
-        temp_path = f"{ruta_imagen}_processed.jpg"
-        cv2.imwrite(temp_path, img)
-        resultado = image_text.extraer_texto(temp_path, usuario_id)
-        os.remove(temp_path)
-    else:
-        resultado = image_text.extraer_texto(ruta_imagen, usuario_id)
-    
-    return str(resultado)[:150] + "..." if len(str(resultado)) > 150 else str(resultado)
-
-def analizar_objetos(ruta_imagen: str, usuario_id: int, image_hash: str) -> str:
-    """Detección de objetos con optimizaciones"""
-    try:
-        resultado = image_objects.detectar_objetos(ruta_imagen, usuario_id)
-        return str(resultado)[:100] + "..." if len(str(resultado)) > 100 else str(resultado)
-    except:
-        return "Detección no disponible"
 
 # --- IMPLEMENTACIONES MÍNIMAS PARA FUNCIONES FALTANTES ---
 

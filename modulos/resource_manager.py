@@ -1,53 +1,39 @@
-"""
-resource_manager.py
-Monitoreo y gestión de recursos de la laptop para SouaweakBot.
-Controla CPU, RAM, espacio en disco y prioriza tareas.
-"""
-
+# modulos/resource_manager.py
 import psutil
 import shutil
-from modulos import historial
+import logging
 
-# Configuración de límites (puedes ajustarlos)
-LIMITE_RAM = 0.85  # 85% de uso máximo permitido
-LIMITE_CPU = 90    # 90% de uso máximo permitido
-LIMITE_DISCO_GB = 2  # mínimo de GB libres en disco
+logger = logging.getLogger(__name__)
 
-def verificar_recursos() -> bool:
+def verificar_recursos(min_cpu=20, min_ram_mb=200, min_disk_mb=500):
     """
-    Verifica si hay recursos suficientes para ejecutar tareas pesadas.
-    Retorna True si todo está dentro del límite, False si hay saturación.
+    Retorna True si hay suficientes recursos:
+    - CPU libre en porcentaje
+    - RAM libre en MB
+    - Espacio libre en disco en MB
     """
-    ram = psutil.virtual_memory().percent / 100
-    cpu = psutil.cpu_percent(interval=1)
-    disco_libre_gb = shutil.disk_usage(".").free / (1024 ** 3)
+    cpu_libre = 100 - psutil.cpu_percent(interval=0.5)
+    ram_libre = psutil.virtual_memory().available / 1024 / 1024
+    disco_libre = shutil.disk_usage(".").free / 1024 / 1024
 
-    if ram > LIMITE_RAM:
-        print(f"[resource_manager] RAM alta: {ram*100:.1f}%")
+    if cpu_libre < min_cpu:
+        logger.warning(f"[resource_manager] CPU baja: {cpu_libre:.2f}% libre")
         return False
-    if cpu > LIMITE_CPU:
-        print(f"[resource_manager] CPU alta: {cpu:.1f}%")
+    if ram_libre < min_ram_mb:
+        logger.warning(f"[resource_manager] RAM baja: {ram_libre:.2f} MB libre")
         return False
-    if disco_libre_gb < LIMITE_DISCO_GB:
-        print(f"[resource_manager] Espacio en disco bajo: {disco_libre_gb:.2f}GB")
+    if disco_libre < min_disk_mb:
+        logger.warning(f"[resource_manager] Disco bajo: {disco_libre:.2f} MB libre")
         return False
 
     return True
 
-def pausar_modulo(modulo_nombre: str):
+def priorizar_tarea(tarea_name="tarea"):
     """
-    Placeholder para pausar un módulo activo.
+    Aquí podrías implementar lógica de prioridad según recursos actuales
     """
-    print(f"[resource_manager] Pausando módulo: {modulo_nombre}")
-
-def reanudar_modulo(modulo_nombre: str):
-    """
-    Placeholder para reanudar un módulo pausado.
-    """
-    print(f"[resource_manager] Reanudando módulo: {modulo_nombre}")
-
-def priorizar_tarea(tarea_nombre: str):
-    """
-    Placeholder para priorizar una tarea crítica.
-    """
-    print(f"[resource_manager] Priorizando tarea: {tarea_nombre}")
+    cpu_libre = 100 - psutil.cpu_percent(interval=0.5)
+    if cpu_libre < 50:
+        logger.info(f"[resource_manager] Recursos bajos, retrasando {tarea_name}")
+        return False
+    return True

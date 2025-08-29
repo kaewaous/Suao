@@ -185,3 +185,125 @@
 2025-08-29 02:39:12,796 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/#ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4
 2025-08-29 02:39:46,844 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
 2025-08-29 02:39:46,845 - telegram.ext.Application - INFO - Application.stop() complete
+2025-08-29 12:24:16,877 - telegram.ext.Application - INFO - Application started
+2025-08-29 12:25:30,498 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2GDNPJ/
+2025-08-29 12:25:32,560 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 12:25:32,561 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m 982.58KiB/s[0m
+2025-08-29 12:25:32,563 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   1.48MiB/s[0m
+2025-08-29 12:25:32,565 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   2.32MiB/s[0m
+2025-08-29 12:25:32,567 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.3%[0m a [0;32m   3.37MiB/s[0m
+2025-08-29 12:25:32,591 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.6%[0m a [0;32m   1.90MiB/s[0m
+2025-08-29 12:25:32,620 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  1.2%[0m a [0;32m   2.02MiB/s[0m
+2025-08-29 12:25:32,653 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  2.5%[0m a [0;32m   2.63MiB/s[0m
+2025-08-29 12:25:32,687 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  5.0%[0m a [0;32m   3.87MiB/s[0m
+2025-08-29 12:25:32,731 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 10.0%[0m a [0;32m   5.77MiB/s[0m
+2025-08-29 12:25:32,857 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 20.0%[0m a [0;32m   6.69MiB/s[0m
+2025-08-29 12:25:33,044 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 40.1%[0m a [0;32m   8.23MiB/s[0m
+2025-08-29 12:25:33,441 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 80.2%[0m a [0;32m   9.06MiB/s[0m
+2025-08-29 12:25:33,617 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m100.0%[0m a [0;32m   9.42MiB/s[0m
+2025-08-29 12:25:33,637 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4
+2025-08-29 12:27:29,480 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2GDNPJ/
+2025-08-29 12:27:31,234 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 12:27:31,237 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m   1.28MiB/s[0m
+2025-08-29 12:27:31,238 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   1.53MiB/s[0m
+2025-08-29 12:27:31,241 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   2.26MiB/s[0m
+2025-08-29 12:27:31,242 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.3%[0m a [0;32m   3.49MiB/s[0m
+2025-08-29 12:27:31,268 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.6%[0m a [0;32m   1.79MiB/s[0m
+2025-08-29 12:27:31,302 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  1.2%[0m a [0;32m   1.82MiB/s[0m
+2025-08-29 12:27:31,340 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  2.5%[0m a [0;32m   2.35MiB/s[0m
+2025-08-29 12:27:31,375 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  5.0%[0m a [0;32m   3.53MiB/s[0m
+2025-08-29 12:27:31,419 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 10.0%[0m a [0;32m   5.38MiB/s[0m
+2025-08-29 12:27:31,551 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 20.0%[0m a [0;32m   6.31MiB/s[0m
+2025-08-29 12:27:31,787 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 40.1%[0m a [0;32m   7.23MiB/s[0m
+2025-08-29 12:27:32,190 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 80.2%[0m a [0;32m   8.37MiB/s[0m
+2025-08-29 12:27:32,340 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m100.0%[0m a [0;32m   9.02MiB/s[0m
+2025-08-29 12:27:32,431 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4
+2025-08-29 12:35:55,482 - telegram.ext.Application - INFO - Application started
+2025-08-29 12:36:16,474 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2GDNPJ/
+2025-08-29 12:36:18,750 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 12:36:18,751 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m   1.08MiB/s[0m
+2025-08-29 12:36:18,753 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   1.75MiB/s[0m
+2025-08-29 12:36:18,754 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   2.73MiB/s[0m
+2025-08-29 12:36:18,756 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.3%[0m a [0;32m   4.28MiB/s[0m
+2025-08-29 12:36:18,783 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.6%[0m a [0;32m   1.80MiB/s[0m
+2025-08-29 12:36:18,813 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  1.2%[0m a [0;32m   1.95MiB/s[0m
+2025-08-29 12:36:18,843 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  2.5%[0m a [0;32m   2.66MiB/s[0m
+2025-08-29 12:36:18,872 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  5.0%[0m a [0;32m   4.05MiB/s[0m
+2025-08-29 12:36:18,917 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 10.0%[0m a [0;32m   5.95MiB/s[0m
+2025-08-29 12:36:19,014 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 20.0%[0m a [0;32m   7.54MiB/s[0m
+2025-08-29 12:36:19,248 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 40.1%[0m a [0;32m   8.01MiB/s[0m
+2025-08-29 12:36:19,660 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 80.2%[0m a [0;32m   8.79MiB/s[0m
+2025-08-29 12:36:19,782 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m100.0%[0m a [0;32m   9.66MiB/s[0m
+2025-08-29 12:36:19,818 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4
+2025-08-29 12:36:19,840 - modulos.downloader - ERROR - [downloader] Error inesperado con https://vm.tiktok.com/ZMA2GDNPJ/: module 'modulos.compressor' has no attribute 'comprimir'
+2025-08-29 12:38:35,654 - telegram.ext.Application - INFO - Application started
+2025-08-29 12:38:45,073 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2GDNPJ/
+2025-08-29 12:38:47,367 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4
+2025-08-29 12:40:44,515 - modulos.compressor - INFO - [compressor] Video comprimido: downloads/Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4
+2025-08-29 12:42:53,680 - modulos.interprete - INFO - Análisis completado en 1.05s
+2025-08-29 12:42:53,691 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2GDNPJ/
+2025-08-29 12:42:56,033 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m 332.64KiB/s[0m
+2025-08-29 12:42:56,035 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.0%[0m a [0;32m 506.29KiB/s[0m
+2025-08-29 12:42:56,036 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m 898.63KiB/s[0m
+2025-08-29 12:42:56,038 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.1%[0m a [0;32m   1.55MiB/s[0m
+2025-08-29 12:42:56,040 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.3%[0m a [0;32m   2.71MiB/s[0m
+2025-08-29 12:42:56,066 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  0.6%[0m a [0;32m   1.65MiB/s[0m
+2025-08-29 12:42:56,136 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  1.2%[0m a [0;32m   1.16MiB/s[0m
+2025-08-29 12:42:56,187 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  2.5%[0m a [0;32m   1.58MiB/s[0m
+2025-08-29 12:42:56,273 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m  5.0%[0m a [0;32m   2.04MiB/s[0m
+2025-08-29 12:42:56,360 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 10.0%[0m a [0;32m   3.02MiB/s[0m
+2025-08-29 12:42:56,606 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 20.0%[0m a [0;32m   3.46MiB/s[0m
+2025-08-29 12:42:56,820 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 40.1%[0m a [0;32m   5.05MiB/s[0m
+2025-08-29 12:42:57,196 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m 80.2%[0m a [0;32m   6.85MiB/s[0m
+2025-08-29 12:42:57,537 - modulos.downloader - INFO - [downloader] Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4: [0;94m100.0%[0m a [0;32m   6.62MiB/s[0m
+2025-08-29 12:42:57,585 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4
+2025-08-29 12:44:24,662 - modulos.compressor - INFO - [compressor] Video comprimido: downloads/Un golpe… y todo cambió #drdanieldavila #niñez #drdavila #honduras.mp4
+2025-08-29 12:46:10,938 - modulos.interprete - INFO - Análisis completado en 197.25s
+2025-08-29 12:46:10,939 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2tBFjQ/
+2025-08-29 12:46:12,873 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 12:46:12,875 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  0.1%[0m a [0;32m   1.17MiB/s[0m
+2025-08-29 12:46:12,876 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  0.3%[0m a [0;32m   1.71MiB/s[0m
+2025-08-29 12:46:12,878 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  0.6%[0m a [0;32m   2.54MiB/s[0m
+2025-08-29 12:46:12,879 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  1.2%[0m a [0;32m   4.04MiB/s[0m
+2025-08-29 12:46:12,906 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  2.5%[0m a [0;32m   1.82MiB/s[0m
+2025-08-29 12:46:12,938 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m  5.0%[0m a [0;32m   1.88MiB/s[0m
+2025-08-29 12:46:12,976 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m 10.0%[0m a [0;32m   2.40MiB/s[0m
+2025-08-29 12:46:13,011 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m 20.0%[0m a [0;32m   3.58MiB/s[0m
+2025-08-29 12:46:13,056 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m 40.1%[0m a [0;32m   5.43MiB/s[0m
+2025-08-29 12:46:13,173 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m 80.2%[0m a [0;32m   6.64MiB/s[0m
+2025-08-29 12:46:13,210 - modulos.downloader - INFO - [downloader] #ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4: [0;94m100.0%[0m a [0;32m   7.37MiB/s[0m
+2025-08-29 12:46:13,217 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/#ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4
+2025-08-29 12:46:28,890 - modulos.compressor - INFO - [compressor] Video comprimido: downloads/#ALICEINBORDERLAND ： JURO QUE SI NO VUELVE CHISHIYA, KUINA, AKANE, AG....mp4
+2025-08-29 12:46:46,982 - modulos.interprete - INFO - Análisis completado en 36.04s
+2025-08-29 12:46:46,984 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMA2o9Wn8/
+2025-08-29 12:46:50,365 - modulos.downloader - INFO - [downloader] 😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4: [0;94m  0.1%[0m a [0;32m Unknown B/s[0m
+2025-08-29 12:46:50,366 - modulos.downloader - INFO - [downloader] 😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4: [0;94m  0.2%[0m a [0;32m   1.30MiB/s[0m
+2025-08-29 12:46:50,368 - modulos.downloader - INFO - [downloader] 😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4: [0;94m  0.5%[0m a [0;32m   1.77MiB/s[0m
+2025-08-29 12:46:50,369 - modulos.downloader - INFO - [downloader] 😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4: [0;94m  1.2%[0m a [0;32m   2.64MiB/s[0m
+2025-08-29 12:46:50,373 - modulos.downloader - INFO - [downloader] 😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4: [0;94m  2.4%[0m a [0;32m   3.49MiB/s[0m
+2025-08-29 12:46:50,397 - modulos.downloader - INFO - [downloader] 😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4: [0;94m  4.9%[0m a [0;32m   1.87MiB/s[0m
+2025-08-29 12:46:50,424 - modulos.downloader - INFO - [downloader] 😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4: [0;94m  9.9%[0m a [0;32m   2.06MiB/s[0m
+2025-08-29 12:46:50,456 - modulos.downloader - INFO - [downloader] 😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4: [0;94m 19.8%[0m a [0;32m   2.70MiB/s[0m
+2025-08-29 12:46:50,488 - modulos.downloader - INFO - [downloader] 😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4: [0;94m 39.7%[0m a [0;32m   4.00MiB/s[0m
+2025-08-29 12:46:50,533 - modulos.downloader - INFO - [downloader] 😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4: [0;94m 79.5%[0m a [0;32m   5.92MiB/s[0m
+2025-08-29 12:46:50,587 - modulos.downloader - INFO - [downloader] 😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4: [0;94m100.0%[0m a [0;32m   5.62MiB/s[0m
+2025-08-29 12:46:50,592 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4
+2025-08-29 12:47:02,954 - modulos.compressor - INFO - [compressor] Video comprimido: downloads/😌❤️ #ruso #russian #clasesderuso #aprenderruso #rusofacil #fyp #explore .mp4
+2025-08-29 13:08:50,263 - telegram.ext.Application - INFO - Application started
+2025-08-29 13:10:13,003 - telegram.ext.Application - INFO - Application started
+2025-08-29 13:13:19,679 - modulos.downloader - INFO - URL de TikTok detectada y limpiada: https://vm.tiktok.com/ZMAj1FHmn/
+2025-08-29 13:13:23,753 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m  0.0%[0m a [0;32m Unknown B/s[0m
+2025-08-29 13:13:23,755 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m  0.1%[0m a [0;32m   1.14MiB/s[0m
+2025-08-29 13:13:23,756 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m  0.3%[0m a [0;32m   1.62MiB/s[0m
+2025-08-29 13:13:23,758 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m  0.6%[0m a [0;32m   2.52MiB/s[0m
+2025-08-29 13:13:23,759 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m  1.2%[0m a [0;32m   4.07MiB/s[0m
+2025-08-29 13:13:23,785 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m  2.4%[0m a [0;32m   1.87MiB/s[0m
+2025-08-29 13:13:23,816 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m  4.8%[0m a [0;32m   1.94MiB/s[0m
+2025-08-29 13:13:23,847 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m  9.7%[0m a [0;32m   2.60MiB/s[0m
+2025-08-29 13:13:23,877 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m 19.4%[0m a [0;32m   3.98MiB/s[0m
+2025-08-29 13:13:23,922 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m 38.9%[0m a [0;32m   5.86MiB/s[0m
+2025-08-29 13:13:24,023 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m 77.8%[0m a [0;32m   7.37MiB/s[0m
+2025-08-29 13:13:24,120 - modulos.downloader - INFO - [downloader] Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4: [0;94m100.0%[0m a [0;32m   6.97MiB/s[0m
+2025-08-29 13:13:24,127 - modulos.downloader - INFO - [downloader] Descarga completada: downloads/Esto tampoco lo repliques en casa. #foryou #paralaracha #edutok #cien....mp4
+2025-08-29 13:13:25,145 - modulos.parallel_downloader - INFO - [parallel_downloader] Audio extraído: downloads/audio/Esto_tampoco_lo_repliques_en_casa.__foryou__paralaracha__edutok__cien....mp3
+2025-08-29 13:13:25,489 - modulos.parallel_downloader - INFO - [parallel_downloader] Foto extraída: downloads/fotos/Esto_tampoco_lo_repliques_en_casa.__foryou__paralaracha__edutok__cien....jpg

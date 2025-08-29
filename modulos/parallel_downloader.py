@@ -1,28 +1,63 @@
-"""
-parallel_downloader.py
-Descarga simultánea de múltiples archivos (videos, audios, fotos) usando asyncio.
-Integra chunked_downloader para archivos grandes.
-"""
+import os
+import logging
+import subprocess
+from modulos import chunked_downloader
+import yt_dlp
 
-import asyncio
-from modulos import chunked_downloader, downloader, historial, resource_manager
+logger = logging.getLogger(__name__)
 
-async def descargar_varias(urls: list, usuario_id: int):
+# ----------------------------
+# Función principal de descarga
+# ----------------------------
+def descargar(url, ydl_opts):
     """
-    Descarga múltiples URLs en paralelo.
+    Descarga un video usando yt-dlp, con opción a multi-threading/parallel.
+    Si falla, recurre al chunked downloader.
     """
-    tareas = []
+    try:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(url, download=True)
+            if not info:
+                raise ValueError("No se pudo extraer información del video.")
+            archivo_descargado = ydl.prepare_filename(info)
+        return archivo_descargado
 
-    for url in urls:
-        # Revisar tamaño estimado o tipo para usar chunked_downloader si es grande
-        # Por simplicidad asumimos que todo video grande usa chunked
-        if url.endswith((".mp4", ".mkv", ".avi")):  # archivos de video
-            tareas.append(chunked_downloader.descargar_chunked(url, usuario_id, tipo_archivo="video"))
-        elif url.endswith((".mp3", ".wav")):  # archivos de audio
-            tareas.append(chunked_downloader.descargar_chunked(url, usuario_id, tipo_archivo="audio"))
-        else:
-            # Para fotos u otros, usar downloader normal
-            tareas.append(downloader.descargar_archivo(url, usuario_id))
+    except Exception as e:
+        logger.warning(f"[parallel_downloader] Descarga falló, intentando chunked: {str(e)}")
+        return chunked_downloader.descargar(url, ydl_opts)
 
-    resultados = await asyncio.gather(*tareas)
-    return resultados
+# ----------------------------
+# Extraer audio de un video
+# ----------------------------
+def extraer_audio(video_path, audio_path):
+    """
+    Extrae el audio de un video usando ffmpeg.
+    """
+    try:
+        comando = [
+            "ffmpeg", "-y", "-i", video_path,
+            "-vn", "-acodec", "libmp3lame", "-q:a", "2",
+            audio_path
+        ]
+        subprocess.run(comando, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        logger.info(f"[parallel_downloader] Audio extraído: {audio_path}")
+    except Exception as e:
+        logger.error(f"[parallel_downloader] Error extrayendo audio: {str(e)}")
+
+# ----------------------------
+# Extraer una foto/miniatura del video
+# ----------------------------
+def extraer_foto(video_path, foto_path, tiempo="00:00:01"):
+    """
+    Extrae un fotograma del video como miniatura usando ffmpeg.
+    Por defecto toma el segundo 1 del video.
+    """
+    try:
+        comando = [
+            "ffmpeg", "-y", "-i", video_path,
+            "-ss", tiempo, "-vframes", "1", foto_path
+        ]
+        subprocess.run(comando, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        logger.info(f"[parallel_downloader] Foto extraída: {foto_path}")
+    except Exception as e:
+        logger.error(f"[parallel_downloader] Error extrayendo foto: {str(e)}")
