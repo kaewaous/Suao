@@ -25,3 +25,4 @@ sympy
 mpmath
 aiohttp
 python-dotenv
+aiofiles
